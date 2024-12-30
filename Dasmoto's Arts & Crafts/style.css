@@ -1,0 +1,33 @@
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    background-image: url("/Resources/pattern.webp");
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .section:nth-of-type(1) h2{
+    background-color: mediumspringgreen;
+}
+
+main .section:nth-of-type(2) h2{
+    background-color: lightcoral;
+}
+
+main .section:nth-of-type(3) h2{
+    background-color: skyblue;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+}

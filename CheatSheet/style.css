@@ -21,7 +21,7 @@ h2{
 table{
     background-color: white;
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
     outline: 2px solid rgb(219, 219, 219) ;
     border-radius: 15px;
     overflow: hidden;

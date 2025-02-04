@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(255, 250, 229);
+    font-family: orbitron;
+
+}
+
+.block{
+    margin: 49px auto;
+    width: 69%;
+    height: 49px;
+
+    
+}
+
+table{
+    background-color: white;
+    width: 100%;
+}
+
+td{
+    align-items: center;
+}

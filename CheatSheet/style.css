@@ -12,11 +12,43 @@ body{
     
 }
 
+h2{
+    margin-bottom: 0px;
+    position: relative;
+    left: 2%;
+}
+
 table{
     background-color: white;
     width: 100%;
+    border-collapse: collapse;
+    outline: 2px solid rgb(219, 219, 219) ;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.table{
+    margin: 80px auto;
 }
 
 td{
-    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-style: dotted;
 }
+
+.table.second{
+    display: inline-table;
+    margin: 0px auto;
+    width: 48%;
+}
+
+.table.third{
+    display: inline-table;
+    margin: 0px 30px;
+    width: 48%;
+    margin-right: 0px;
+}
+
